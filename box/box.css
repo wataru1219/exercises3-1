@@ -1,0 +1,28 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+.box1{
+    width:300px;
+    height:300px;
+    /*背景色を変更する*/
+    border: solid  black;
+    border-top-width:5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    background-color:green;
+    margin:0px;
+    padding:30px;
+}
+
+.box2{
+    width:100px;
+    height:100px;
+    /*背景色を変更する*/
+    background-color:blue;
+    /*指定方法（box2の周囲すべてに枠線を設定する場合）*/
+    border:5px solid yellow;
+}
